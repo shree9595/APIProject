@@ -2,7 +2,7 @@
 const express = require("express")
 const router = express.Router()
 
-const { deleteProduct, getAllProducts, creatProduct, pushProductToCategory } = require("../controllers/product")
+const { getAllProducts, creatProduct, pushProductToCategory } = require("../controllers/product")
 
 
 
