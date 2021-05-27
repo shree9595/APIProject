@@ -33,7 +33,7 @@ exports.pushProductToCategory = (req, res, next) => {
         (err, category) => {
             if (err) {
                 return res.status(400).json({
-                    error: "Unable to save purchase list"
+                    error: "Unable to save product in category list"
                 });
             }
             next();
